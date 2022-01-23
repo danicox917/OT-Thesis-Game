@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+}
+@font-face {
+  font-family: 'Victoriana';
+  src: url(/images/Victoriana.otf);
+}
+body{
+  background-image: url("images/61FCAT66R4.jpeg");
+  background-size: 150%;
+  font-family: 'Port Lligat Sans', sans-serif;
+  font-size: 20px;
+  color: #730E0E;
+}
+.hidden {
+  display: none;
+}
+nav {
+  background-color:#5E6F4Bd9;
+  z-index: 1;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+a {
+  color:  #F2DC9B;
+  font-family: 'Port Lligat Sans', sans-serif;
+}
+a:hover {
+  color: #FFFDEA;
+  text-decoration:none;
+}
+h1 {
+  color:#FFFDEA; 
+  margin: 0px;
+  font-family: 'Victoriana';
+  font-size: 30px;
+}
+h2 {color:#FFFDEA; 
+    margin: 0px;
+    font-family: 'Port Lligat Sans', sans-serif;
+}
+h3 {color: #F2DC9B;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Victoriana';
+}
+h4 {color:  #730E0E;
+    font-family: 'Victoriana';
+}
+p {
+    font-family: 'Port Lligat Sans', sans-serif;
+}
+.nav-tabs > li > a:focus{
+    color: #730E0E !important;
+    background-color: #F2DC9B !important;
+}
+.nav-tabs > li > a:active{
+    color:  #730E0E !important;
+    background-color: #F2DC9B !important;
+}
+.scroll {
+    max-height: 66vh;
+    overflow-y: auto;
+}
+.shadow {
+    position: relative;
+    z-index: 10;
+    box-shadow: 10px 10px black;
+}
+.hamburger{
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 220, 155, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  width: 40px;
+  }
+.bodyContainer{
+  padding: 20px;
+}
+button{
+  background-color: #F2DC9B;
+  box-shadow: 2px 2px 2px black;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color:  #730E0E;
+  margin: 5px;
+}
+button:hover{
+  background-color: #F2EDD5;
+
+  }
+input {
+  margin: 0px 5px;
+}
+.tab {
+  display: none;
+}
+.step.active {
+  opacity: 1;
+}
+.navbar-brand{
+  font-family: 'Victoriana';
+}
+.block {
+  background-color: #F2EDD5d9;
+  box-shadow: 5px 0px 20px #F2EDD5d9, -5px 0px 20px #F2EDD5d9;
+  padding: 5px;
+  margin: 5px 0px;
+}
+.gameplay{
+  display: none;
+}
+.objectPicker{
+  font-family: 'Victoriana';
+}
+.obj:hover{
+  background-color:#F2DC9B;
+}
+.obj{
+  font-size: 16px;
+  font-family: 'Port Lligat Sans', sans-serif;
+}
+obj2{
+  background-color:red;
+}
+input[type="checkbox"]{
+  display:none;
+}
+.hidden{
+  display: none;
+}
+#statsBox{
+  background-color: #F2DC9B;
+  font-family: 'Victoriana';
+  padding: 5px;
+}
